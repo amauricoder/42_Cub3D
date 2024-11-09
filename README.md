@@ -1,7 +1,7 @@
 # Cub3D
 A project about creating a 3D game using raycasting.
 
-Click [Here](https://www.youtube.com/watch?v=oukQ9P6_49k) to see the project running.
+>Click [Here](https://www.youtube.com/watch?v=oukQ9P6_49k) to see the project running.
 ## Table of Contents
 
 - [Sources and Acknowledgments](#sources-and-acknowledgments)
@@ -21,12 +21,17 @@ Also, the next source is not this used to study the technique of Raycasting, but
 Raytracing instead. But it worth to mention. Raytracing technique is used in the "brother" project of Cub3d, called MiniRT.
 [Ray Tracing in one weekend](https://raytracing.github.io/) - By [Raytracing](https://github.com/RayTracing)
 
-And I would like to thank by peers from 42 Porto, who helped me a lot during all the process of this complex project. Thank you all. Sharing knowledge make us better. Special thanks to Vinicius Vaccari, my partner throughout this project, who co-constructed this minishell with me.
+And I would like to thank my peers from 42 Porto, who helped me a lot during all the process of this complex project. Thank you all. Sharing knowledge make us better. Special thanks to [Vinicius Vaccari](https://github.com/vivaccar/vivaccar), my partner throughout this project, who co-constructed this minishell with me.
+
 
 ## Introduction
 The Cub3D project at 42 is an introduction to 3D graphics development using the technique of raycasting. The goal is to create a first-person game similar to the classic Wolfenstein 3D, where the player navigates through a maze and views the environment in a 3D perspective, even though the map is represented as a 2D grid. This project provides a practical way to learn the fundamentals of 3D rendering and graphics manipulation using MiniLibX, a small graphical library provided by the school. The implementation involves setting up a raycasting system that simulates the 3D effect by casting rays from the player's position to detect walls and render them accordingly.
+>For the complete requirements and limitations of the project, read the [subject](subject/cub3.subject.pdf)
 
-You can check more information about MiniLibx in this documentation: https://harm-smits.github.io/42docs/libs/minilibx
+>The code was written according to the 42 norm guidelines(norminette). <br>
+[View Norm](42_norm/en.norm.pdf)
+
+>You can check more information about MiniLibx in this documentation: https://harm-smits.github.io/42docs/libs/minilibx
 
 ![cub3d](mandatory.png)
 
