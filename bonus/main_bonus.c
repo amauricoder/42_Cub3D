@@ -6,7 +6,7 @@
 /*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/09 21:36:04 by aconceic          #+#    #+#             */
-/*   Updated: 2024/10/08 09:39:04 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/11/08 14:52:28 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ void	run_cub(t_gm *game)
 	start_player_position(game);
 	mlx_mouse_hook(game->mlx->wnd, mouse_fire, game);
 	mlx_loop_hook(game->mlx->cnt, &raycaster, game);
+	mlx_mouse_hide(game->mlx->cnt, game->mlx->wnd);
 	mlx_hook(game->mlx->wnd, 2, 1L << 0, key_press_handler, game);
 	mlx_hook(game->mlx->wnd, 6, 1L << 6, mouse_handler, game);
 	mlx_hook(game->mlx->wnd, 17, 0, close_cub, game);

@@ -1,10 +1,27 @@
-Repository for the Cub3d project for 42 Porto.
-
-This repositoru is under construction.
-
-----
-
 # Cub3D
+A project about creating a 3D game using raycasting.
+
+Click [Here](https://www.youtube.com/watch?v=oukQ9P6_49k) to see the project running.
+## Table of Contents
+
+- [Sources and Acknowledgments](#sources-and-acknowledgments)
+- [Introduction](#introduction)
+- [Raycaster](#raycaster)
+- [Usage](#usage)
+- [License](#license)
+
+## Sources and Acknowledgments
+I would like to share the key resources that helped me to construct this project. My sincere thanks go out to everyone who has shared their knowledge freely with the community.
+- [Sprites Resource](https://www.spriters-resource.com)
+- [Lode's Computer Graphics Tutorial - Raycasting](https://lodev.org/cgtutor/raycasting.html) - By [Lode Vandevenne](https://lodev.org/)
+- [Raycasting in Scratch Playlist](https://www.youtube.com/watch?v=M1c5TcdITVs&list=PLy4zsTUHwGJKolO9Ko_j6IStFIJnTYBul) - By [Griffpatch](https://www.youtube.com/@griffpatch)
+- [Make Your Own Raycaster Part 1 ](https://www.youtube.com/watch?v=gYRrGTC7GtA&t=842s) - By [3DSage](https://www.youtube.com/@3DSage) - For this video, search also for part 2 and 3.
+
+Also, the next source is not this used to study the technique of Raycasting, but
+Raytracing instead. But it worth to mention. Raytracing technique is used in the "brother" project of Cub3d, called MiniRT.
+[Ray Tracing in one weekend](https://raytracing.github.io/) - By [Raytracing](https://github.com/RayTracing)
+
+And I would like to thank by peers from 42 Porto, who helped me a lot during all the process of this complex project. Thank you all. Sharing knowledge make us better. Special thanks to Vinicius Vaccari, my partner throughout this project, who co-constructed this minishell with me.
 
 ## Introduction
 The Cub3D project at 42 is an introduction to 3D graphics development using the technique of raycasting. The goal is to create a first-person game similar to the classic Wolfenstein 3D, where the player navigates through a maze and views the environment in a 3D perspective, even though the map is represented as a 2D grid. This project provides a practical way to learn the fundamentals of 3D rendering and graphics manipulation using MiniLibX, a small graphical library provided by the school. The implementation involves setting up a raycasting system that simulates the 3D effect by casting rays from the player's position to detect walls and render them accordingly.
@@ -201,11 +218,17 @@ while (!hit)
 
    where `wall_hit_pos` is the intersection point along the wall, ensuring the correct part of the texture is displayed. The vertical mapping of the texture is adjusted based on the calculated wall height, allowing for correct rendering regardless of the wall's height. Finally, textures are applied depending on the side of the wall that was hit.
 
-## Compilation and execution
+## Usage
 
-1. Run the make command:
+
+0. In your terminal, download the project
+```bash
+git@github.com:amauricoder/42_Cub3D.git
+```
+1. Enter the folder and run the make command:
 
 ```bash
+cd 42_Cub3D
 make
 ```
 2. Run the executable with the path to the map file as argument:
@@ -244,14 +267,5 @@ In the cub3D game, the following controls are implemented for player movement an
 - **Mouse Movement (Left and Right)**: Similar to the arrow keys, moving the mouse left or right also rotates the player's view.
 - **Shift**: Fires the weapon.
 
-
-## Useful (Under construction)
-
-//https://medium.com/@afatir.ahmedfatir/cub3d-tutorial-af5dd31d2fcf
-
-valgrind commands
-//make re && clear && valgrind --leak-check=full --track-fds=yes ./cub3D maps/example.cub
-//make re && clear && valgrind --leak-check=full ./cub3D maps/example.cub
-
-sprites resouces
-//https://www.spriters-resource.com
+## LICENSE
+[License](LICENSE)
