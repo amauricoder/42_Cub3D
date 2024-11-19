@@ -21,7 +21,7 @@ Also, the next source is not this used to study the technique of Raycasting, but
 Raytracing instead. But it worth to mention. Raytracing technique is used in the "brother" project of Cub3d, called MiniRT.
 [Ray Tracing in one weekend](https://raytracing.github.io/) - By [Raytracing](https://github.com/RayTracing)
 
-And I would like to thank my peers from 42 Porto, who helped me a lot during all the process of this complex project. Thank you all. Sharing knowledge make us better. Special thanks to [Vinicius Vaccari](https://github.com/vivaccar/vivaccar), my partner throughout this project, who co-constructed this minishell with me.
+And I would like to thank my peers from 42 Porto, who helped me a lot during all the process of this complex project. Thank you all. Sharing knowledge make us better. Special thanks to [Vinicius Vaccari](https://github.com/vivaccar/vivaccar), my partner throughout this project, who co-constructed this project with me.
 
 
 ## Introduction
